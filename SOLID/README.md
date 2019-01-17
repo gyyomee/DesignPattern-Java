@@ -45,6 +45,8 @@ class Text {
 
 
 
+
+
 ## 개방-폐쇄 원칙(Open-Closed Principle, OCP)
 
 기존의 코드를 변경하지 않으면서 기능을 추가할 수 있도록 설계가 되어야 함.
@@ -87,6 +89,8 @@ public class AreaCalculator {
 
 * 새로운 모양이 계속 추가될 경우 새로운 모양의 `AreaCalculator` 클래스를 계속 수정 해야 되므로 복잡해지게 된다. 따라서 이 디자인은 수정에 폐쇄되어있지 폐쇄되어있지 않고 확장성이 없다.
 * `Shape`라는 인터페이스를 만들어 인터페이스에서 구체적인 모양 매체를 캡슐화해 처리하도록 한다.
+
+
 
 
 
@@ -142,6 +146,8 @@ public class ElectricPowerSwitch {
 
 
 
+
+
 ## 인터페이스 격리의 원칙(Interface Segregation Principle, ISP)
 
 클라이언트 자신이 이용하지 않는 기능에는 영향을 받지 않아야 한다.
@@ -192,6 +198,8 @@ public class ToyHouse implements Toy {
 * 클라이언트와 무관하게 발생한 변화로 클라이언트 자식이 영향을 받지 않으려면 범용의 인터페이스보다는 클라이언트에 특화된 인터페이스를 사용해야 한다. 
 * 따라서 인터페이스를 클라이언트에 특화되도록 분리시켜야 한다
 * 문제점을 해결하여 `Toy House`, `Toy Car`, `Toy Plane`을 구현
+
+
 
 
 
