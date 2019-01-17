@@ -11,7 +11,7 @@
 
 레거시 시스템을 원하는 인터페이스로 사용가능케 함
 
-![](./Adapter_pattern/classDiagram.PNG)
+![classDiagram](./Adapter_pattern/classDiagram.png)
 
 
 
